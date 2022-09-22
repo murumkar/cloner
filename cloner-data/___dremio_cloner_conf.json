@@ -44,7 +44,7 @@
                     "logging.format": "%(levelname)s:%(asctime)s:%(message)s"
                 },
                 {
-                    "logging.filename": "STDOUT"
+                    "logging.filename": "/tmp/dremio_export.log"
                 },
                 {
                     "logging.verbose": "True"

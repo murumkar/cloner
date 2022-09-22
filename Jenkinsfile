@@ -2,19 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh '/usr/bin/python3 /home/ec2-user/dremio-cloner/src/dremio_cloner.py /home/ec2-user/dremio-cloner/export_config.json'
             }
         }
     }
