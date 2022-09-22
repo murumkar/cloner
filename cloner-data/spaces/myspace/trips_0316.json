@@ -58,7 +58,7 @@
     },
     "path": [
         "myspace",
-        "trips_0315"
+        "trips_0316"
     ],
     "sql": "SELECT * FROM yellow_tripdata WHERE yellow_tripdata.pickup_date = '2022-03-16'",
     "sqlContext": [
