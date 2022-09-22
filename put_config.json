@@ -8,7 +8,7 @@
      {"is_community_edition": "False"}]
   },
   {"source": [
-     {"directory":"/var/lib/jenkins/cloner/cloner-data"}]
+     {"directory":"cloner-data"}]
   },
   {"options": [
 

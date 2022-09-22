@@ -20,8 +20,8 @@ pipeline {
         }
          stage('Deploy') {
             steps {
-                sh 'ls'
-                //sh '/usr/bin/python3 /home/ec2-user/dremio-cloner/src/dremio_cloner.py /home/ec2-user/dremio-cloner/put_config.json'
+                //sh 'ls'
+                sh '/usr/bin/python3 /home/ec2-user/dremio-cloner/src/dremio_cloner.py put_config.json'
             }
         }
     }
