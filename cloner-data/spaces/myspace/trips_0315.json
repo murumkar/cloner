@@ -60,7 +60,7 @@
         "myspace",
         "trips_0315"
     ],
-    "sql": "SELECT * FROM yellow_tripdata WHERE yellow_tripdata.pickup_date = '2022-03-17'",
+    "sql": "SELECT * FROM yellow_tripdata WHERE yellow_tripdata.pickup_date = '2022-03-15'",
     "sqlContext": [
         "s3",
         "manoj-wellsfargo",
