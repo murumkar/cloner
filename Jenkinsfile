@@ -20,7 +20,7 @@ pipeline {
         }
          stage('Deploy') {
             steps {
-                //sh 'ls'
+                sh 'cat cloner-data/spaces/myspace/trips_0315.json'
                 sh '/usr/bin/python3 /home/ec2-user/dremio-cloner/src/dremio_cloner.py put_config.json'
             }
         }
