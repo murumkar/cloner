@@ -28,7 +28,7 @@
         {
             "target": [
                 {
-                    "directory": "/home/ec2-user/cloner/cloner-data"
+                    "directory": "/var/lib/jenkins/cloner/cloner-data"
                 },
                 {
                     "overwrite": "True"
