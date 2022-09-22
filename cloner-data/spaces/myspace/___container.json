@@ -1,0 +1,30 @@
+{
+    "accessControlList": {
+        "roles": [
+            {
+                "id": "a4b31b8d-1099-4c44-bf56-e624576a04f7",
+                "permissions": [
+                    "SELECT"
+                ]
+            }
+        ]
+    },
+    "children": [
+        {
+            "datasetType": "VIRTUAL",
+            "id": "9118d241-6cb8-4821-a4fb-275d9d62a71d",
+            "path": [
+                "myspace",
+                "trips_0315"
+            ],
+            "type": "DATASET"
+        }
+    ],
+    "entityType": "space",
+    "id": "31b9a6c7-7c72-45a0-ac30-661acc27fc6c",
+    "name": "myspace",
+    "owner": {
+        "ownerId": "5b49412e-fda4-4aae-93a6-11b18d492f8c",
+        "ownerType": "USER"
+    }
+}
