@@ -58,9 +58,9 @@
     },
     "path": [
         "myspace",
-        "trips_0518"
+        "trips_0102"
     ],
-    "sql": "SELECT * FROM yellow_tripdata WHERE yellow_tripdata.pickup_date = '2022-05-18'",
+    "sql": "SELECT * FROM yellow_tripdata WHERE yellow_tripdata.pickup_date = '2022-01-02'",
     "sqlContext": [
         "s3",
         "manoj-wellsfargo",
