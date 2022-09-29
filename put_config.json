@@ -1,7 +1,7 @@
 {"dremio_cloner": [
   {"command":"put"},
   {"target": [
-      {"endpoint": "http://34.221.28.93:9047/"},
+      {"endpoint": "http://34.218.76.95:9047/"},
       {"username": "admin"},
       {"password": "GQ1UH0QWQUilnCJGzaFLutwp8HAIVWP7aG6EKRpnk/xfw3PE09xW8TMVFHFhOA=="},
       {"verify_ssl": "False"},
