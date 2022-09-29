@@ -33,6 +33,8 @@ pipeline {
  
     /* Cleanup workspace */
     post {
+       echo params.action
+       echo params.merged
        always {
            deleteDir()
        }
